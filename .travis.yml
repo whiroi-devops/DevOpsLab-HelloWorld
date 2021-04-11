@@ -21,3 +21,4 @@ deploy:
   provider: heroku
   api-key: $HEROKU_API_KEY
   app: devopslabs-hellowordx
+  skip_cleanup: true
